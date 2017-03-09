@@ -1,10 +1,14 @@
 /**
  * Created by Z on 2017-03-07.
  */
-const SocketCli = require('../lib/SocketCli');
+const Discover = require('../lib/Discover');
 
-const cli = new SocketCli();
+const disconver = new Discover();
 
-cli.connect('ws://localhost:9005');
+disconver.tryConnect(9006);
 
-cli.registe('/cds/demo', {'name': 'name'});
+disconver.on('init',()=>{
+    disconver.addService('./demo/hello',{
+        config:'xxxxx'
+    })
+})
