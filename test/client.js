@@ -5,7 +5,7 @@ const Discover = require('../lib/Discover');
 
 const disconver = new Discover();
 
-disconver.tryConnect(9006);
+disconver.tryConnect(9005);
 
 disconver.on('init',()=>{
     disconver.addService('./demo/hello',{

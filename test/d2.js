@@ -5,7 +5,7 @@ const Discover = require('../lib/Discover');
 
 const disconver = new Discover();
 
-disconver.listen(9005);
+disconver.listen(9005).tryConnect(9005);
 
 disconver.watch('.',(method,serviceName,config)=>{
     console.log(method,serviceName,config);

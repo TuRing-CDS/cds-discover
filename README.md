@@ -28,4 +28,4 @@
     
     discover.watch('你需要监听的service  , . 通配所有',(method,serviceName,config)=>{
         console.log('watch',method,serviceName,config);
-    })
+    });
