@@ -12,3 +12,7 @@ disconver.on('init',()=>{
         config:'xxxxx'
     })
 })
+
+disconver.watch('.',(method,serviceName,config)=>{
+    console.log(method,serviceName,config);
+})
