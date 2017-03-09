@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cavacn/cds-discover.git"
+    "url": "git+https://github.com/TuRing-CDS/cds-discover.git"
   },
   "author": "iamee",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cavacn/cds-discover/issues"
+    "url": "https://github.com/TuRing-CDS/cds-discover/issues"
   },
-  "homepage": "https://github.com/cavacn/cds-discover#readme",
+  "homepage": "https://github.com/TuRing-CDS/cds-discover.git#readme",
   "dependencies": {
     "async": "^2.1.5",
     "socket.io": "^1.7.3",
